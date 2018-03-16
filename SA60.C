@@ -7,11 +7,11 @@ clrscr();
 printf("\n enter the range to print the Fibonacci numbers\n");
 scanf("%d",&n);
 printf("%d",a);
-printf("\t%d",b);
+printf("%d",b);
 for(i=1;i<=n-2;i++)
 {
 c=a+b;
-printf("\t%d",c);
+printf("%d",c);
 a=b;
 b=c;
 }
