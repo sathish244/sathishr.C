@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<conio.h>
 int main() 
 {
 int x,y,temp;
@@ -14,5 +15,6 @@ y=temp;
 printf("\n after swapping:");
 printf("\nx=%d",x);
 printf("\ny=%d",y);
+getch();
 return 0;
 }
