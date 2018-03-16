@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<conio.h>
 int main() 
 {
 int array[20];
@@ -19,5 +20,6 @@ max=array[i];
 }
 }
 printf("\nthe maximum of the numbers is:%d",max);
+getch();
 return 0;
 }
